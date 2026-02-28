@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
 import {
     CostBreakdown, CostConfig, Client, Sale, DashboardStats
@@ -7,7 +8,7 @@ import {
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
-    readonly BASE = 'http://localhost:8080/api';
+    readonly BASE = environment.apiUrl;
 
     constructor(private http: HttpClient) { }
 

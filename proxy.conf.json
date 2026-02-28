@@ -1,6 +1,6 @@
 {
     "/api": {
-        "target": "http://localhost:8080",
+        "target": "https://plagora-backend.onrender.com",
         "secure": false,
         "changeOrigin": true,
         "logLevel": "warn"

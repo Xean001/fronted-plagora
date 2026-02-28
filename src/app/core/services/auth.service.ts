@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../../../environments/environment';
 import { Router } from '@angular/router';
 import { tap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
@@ -7,7 +8,7 @@ import { LoginRequest, TokenPair } from '../models/models';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-    private readonly API = 'http://localhost:8080/api';
+    private readonly API = environment.apiUrl;
     private readonly ACCESS_KEY = 'plagora_access';
     private readonly REFRESH_KEY = 'plagora_refresh';
 
