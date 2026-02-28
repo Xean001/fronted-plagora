@@ -1,0 +1,36 @@
+﻿[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m                [2m | [22m  [36m7.03 kB[39m[2m | [22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m                  [2m | [22m  [36m4.20 kB[39m[2m | [22m
+[32mchunk-3K6KZK3K.js[39m  [2m | [22m[2m-[22m                     [2m | [22m  [36m1.93 kB[39m[2m | [22m
+[32mchunk-VUJOFXKG.js[39m  [2m | [22m[2m-[22m                     [2m | [22m[36m938 bytes[39m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m         [2m | [22m [1m14.10 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m
+[32mchunk-L3SNMUK7.js[39m  [2m | [22m[2mventa-form-component[22m  [2m | [22m [36m43.77 kB[39m[2m | [22m
+[32mchunk-SV2NAAVF.js[39m  [2m | [22m[2mconfig-component[22m      [2m | [22m [36m36.89 kB[39m[2m | [22m
+[32mchunk-QRRE7RY5.js[39m  [2m | [22m[2mventa-detail-component[22m[2m | [22m [36m31.48 kB[39m[2m | [22m
+[32mchunk-CRDYIQFZ.js[39m  [2m | [22m[2mventas-list-component[22m [2m | [22m [36m19.82 kB[39m[2m | [22m
+[32mchunk-PKXEUWXC.js[39m  [2m | [22m[2mclientes-component[22m    [2m | [22m [36m19.62 kB[39m[2m | [22m
+[32mchunk-IHYF34WO.js[39m  [2m | [22m[2mdashboard-component[22m   [2m | [22m [36m18.59 kB[39m[2m | [22m
+[32mchunk-RBNYMARJ.js[39m  [2m | [22m[2mlogin-component[22m       [2m | [22m [36m12.47 kB[39m[2m | [22m
+[32mchunk-2WRQBLHG.js[39m  [2m | [22m[2mshell-component[22m       [2m | [22m [36m12.09 kB[39m[2m | [22m
+[32mchunk-SOVSJ4VV.js[39m  [2m | [22m[2m-[22m                     [2m | [22m  [36m2.93 kB[39m[2m | [22m
+[32mchunk-JBSD3FPY.js[39m  [2m | [22m[2m-[22m                     [2m | [22m[36m852 bytes[39m[2m | [22m
+
+Application bundle generation complete. [2.372 seconds] - 2026-02-25T06:06:19.427Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  [32mÔ×£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  Ô×£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.005 seconds] - 2026-02-25T21:40:37.419Z
+
+Page reload sent to client(s).

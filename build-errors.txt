@@ -1,0 +1,173 @@
+﻿[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+Application bundle generation failed. [3.826 seconds] - 2026-02-26T00:12:44.063Z
+
+node.exe : 
+[1m[31m[31mX [41;31
+m[[41;97mERROR[41;31m
+][0m [1mTS2307: 
+Cannot find module '../
+../core/services/auth.s
+ervice' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([1m[31m[31   
+ mX...r-compiler][    
+0m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+    src/app/features/au
+th/login/login.componen
+t.ts:5:28:
+[37m      5 Ôöé 
+import { AuthService } 
+from [32m'../../core/s
+ervices/auth.service'[
+37m;
+        ÔòÁ            
+                 [32m~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mTS2571: Object is 
+of type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/au
+th/login/login.componen
+t.ts:103:4:
+[37m      103 Ôöé     
+[32mthis.auth[37m.log
+in(this.email, this.pas
+sword).subscribe({
+          ÔòÁ     
+[32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mTS7006: Parameter 
+'e' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/au
+th/login/login.componen
+t.ts:105:13:
+[37m      105 Ôöé     
+  error: [32me[37m 
+=> { this.error.set(e.e
+rror?.error ?? 
+'Credenciale...
+          ÔòÁ          
+    [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mTS2322: Type '{ 
+type: string; height: 
+number; toolbar: { 
+show: boolean; }; 
+animations: { enabled: 
+boolean; easing: 
+string; speed: number; 
+}; fontFamily: string; 
+}' is not assignable 
+to type 'ApexChart'.
+  Types of property 
+'type' are 
+incompatible.
+    Type 'string' is 
+not assignable to type 
+'ChartType'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/da
+shboard/dashboard.compo
+nent.ts:128:13:
+[37m      128 Ôöé     
+        [[32mchart[37
+m]="chartOptions"
+          ÔòÁ          
+    [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mTS2322: Type '{ 
+curve: string; width: 
+number; }' is not 
+assignable to type 
+'ApexStroke'.
+  Types of property 
+'curve' are 
+incompatible.
+    Type 'string' is 
+not assignable to type 
+'"smooth" | "straight" 
+| "stepline" | 
+"monotoneCubic" | 
+"linestep" | ("smooth" 
+| "straight" | 
+"stepline" | 
+"monotoneCubic" | 
+"linestep")[] | 
+undefined'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/da
+shboard/dashboard.compo
+nent.ts:133:13:
+[37m      133 Ôöé     
+        [[32mstroke[3
+7m]="chartStroke"
+          ÔòÁ          
+    [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mCould not resolve "
+../../core/services/aut
+h.service"[0m
+
+    src/app/features/au
+th/login/login.componen
+t.ts:5:28:
+[37m      5 Ôöé 
+import { AuthService } 
+from [32m'../../core/s
+ervices/auth.service'[
+37m;
+        ÔòÁ            
+                 [32m~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~[0m
+
+[39m[22m
